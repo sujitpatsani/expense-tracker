@@ -1,0 +1,50 @@
+
+1 - Extract the month out of the date in the format "Jan" "Feb" etc and create a separate column 
+
+2 - Extract the time out of it and create a separate column with values " afternoon , morning , evening , night " based on the hour . 
+
+3 - Create another data frame with the names of states and abbreviation of the state and join with the original data frame . 
+
+4 - change the value of condition to number of hours left for all the records . 
+
+5 - create bins of mileage and separate them into different groups based on the values . < cut function > 
+
+6 - Does each vehicle have a unique vin ( vehicle identification number ) ?
+
+7 - Which is the most  and least selling colour of the car  in the dataset ?
+
+8 - Does the number of car purchased increase year on year ?
+
+9 - Which state observed the highest number of cars sold ? 
+
+10 - Which brand of the car has the highest mileage ?
+
+11 - Convert the Date column into proper datetime format and find the earliest and latest sale date in the dataset.
+
+12 - Group the data by brand and calculate the average price of cars for each brand.
+
+13 - Find the top 5 most expensive cars in the dataset (brand, model, year, price).
+
+14 - Which state has the cheapest average car price?
+
+15 - Create a new column called "car_age" by subtracting the year from the current year (2025).
+
+16 - Identify which brand has the highest total number of cars sold.
+
+17 - Compare the average mileage of cars with "clean vehicle" vs other title_status.
+
+18 - Create a new column "price_per_mile" = price ÷ mileage. Which car has the best value (lowest price per mile)?
+
+19 - Find the distribution of car colors (bar chart / value counts).
+
+20 - Does mileage affect the price? Plot a scatter plot of mileage vs price and comment on the trend.
+
+21 - From the condition column, calculate how many cars had time left in days vs hours.
+
+22 - Which brand and state combination sold the most cars?
+
+23 - Create bins of price ranges (0-10k, 10k-20k, 20k-30k, etc.) and find how many cars fall in each bin.
+
+24 - Find if there are duplicate VIN numbers and handle them.
+
+25 - Save a summary report (aggregated stats like avg price, avg mileage per brand) into a new CSV file.
